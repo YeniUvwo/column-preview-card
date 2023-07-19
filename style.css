@@ -1,0 +1,142 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div .automobile{
+  color: white;
+}
+
+img{
+width: 45px;
+margin-bottom: 30px;
+}
+
+h1{
+  font-family: "Big Shoulders Display";
+  font-size: 1.8em;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  font-family:'Lexend Deca', sans-serif;
+  font-size: 0.67em;
+  line-height: 1.5em;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 20px;
+  max-width: 150px;
+}
+
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 40px 35px;
+}
+.sedan button{
+  color: hsl(31, 77%, 52%);
+}
+.sedan button:hover{
+  background-color: hsl(31, 77%, 52%);  
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suv{
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px 35px;
+}
+.suv button{
+  color: hsl(184, 100%, 22%);
+}
+.suv button:hover{
+  background-color: hsl(184, 100%, 22%);  
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 40px 35px;
+}
+.luxury button{
+  color:hsl(179, 100%, 13%);
+}
+.luxury button:hover{
+  background-color:  hsl(179, 100%, 13%);  
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+  background-color: hsl(0, 0%, 95%);
+  border: 1.5px solid hsla(0, 0%, 100%, 0.75);
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 0.7em;
+  font-weight: 500;
+  width: 105px;
+  color: hsl(184, 100%, 22%);
+  font-family:'Lexend Deca', sans-serif;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.mobile{
+  display: none;
+}
+ 
+@media(max-width: 825px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  h1{
+    font-size: 1.73em;
+  }
+  p{
+    font-size: 0.6em;
+  }
+  .sedan{
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    margin-top: 50px;
+  }
+  .luxury{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .button{margin-top: 5px;
+    padding: 5px;
+    width: 100px;
+  }
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
